@@ -11,11 +11,11 @@ Future<void> mainCommon(String env) async {
 
   Color primaryColor;
   switch (env) {
-    case Enviorment.dev:
+    case Environment.dev:
       primaryColor = Colors.blue;
       break;
 
-    case Enviorment.prod:
+    case Environment.prod:
       primaryColor = Colors.red;
       break;
     default:
